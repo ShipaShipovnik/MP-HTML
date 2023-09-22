@@ -15,6 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-transform: uppercase;
 }
 header img{
     height: 40px;
@@ -32,6 +33,8 @@ nav p{
 h2{
     text-align: center;
     margin-bottom: 40px;
+    text-transform: uppercase;
+
 }
 section{
     margin-bottom: 40px;
@@ -73,12 +76,48 @@ section{
 }
 
 /* подписка */
+.subscription{
+    background-color: #630000;
+    color:aliceblue;
+    height: 274px;
+    padding: 70px 20px 20px 40px;
+    box-sizing: border-box;
+}
+.subscription h2{
+    text-align: start;
+}
+input{
+    height: 45px;
+    width: 280px;
+    border-radius: 7px;
+    border: 1px solid white;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+input[type="submit"]{
+    background-color: #630000;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.subscription p{
+    margin-bottom: 15px;
+}
 
+/* контакты */
+.kontakty{
+    height: 280px;
+    padding-left: 40px;
+}
 /* footer */
 footer{
     background: black;
     color:white;
     text-align: center;
     height: 80px;
+    padding-top: 25px;
+    font-size: 15pt;
+    box-sizing: border-box;
 }
+
 
