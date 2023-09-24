@@ -135,3 +135,38 @@ input {
     background-color: #FF9900;
     width: 85px;
 }
+
+/* полезная инфа */
+h1{
+    margin-bottom: 50px;
+}
+/* footer */
+footer{
+    background-color: #EEF2E3;
+    padding-left: 390px;
+    padding-right: 390px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 500px 160px 155px 155px;
+    column-gap: auto;
+    row-gap: 50px;
+    font-size: 14px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #8191A6;
+}
+footer h2{
+    text-transform: uppercase ;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer p:first-child 
+.copyright 
+.mygiro 
+.pokup 
+.help
